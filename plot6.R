@@ -33,3 +33,4 @@ ggp <- ggplot(bothNEI, aes(x=factor(year), y=Emissions, fill=city)) +
 print(ggp)
 
 dev.off()
+
