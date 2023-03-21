@@ -25,3 +25,4 @@ ggp <- ggplot(baltimoreVehiclesNEI,aes(factor(year),Emissions)) +
 print(ggp)
 
 dev.off()
+
