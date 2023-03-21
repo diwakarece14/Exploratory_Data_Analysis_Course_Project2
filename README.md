@@ -111,7 +111,8 @@ barplot(
 
 As we can see from the plot, total emissions have decreased in the US from 1999 to 2008.
 
-C:\Users\e.reddy.diwakar\Downloads\plot1.png
+![plot1](https://user-images.githubusercontent.com/120176389/226604275-50a1d4e7-766f-4c5c-a95d-489f2ae49026.png)
+
 
 ### Question 2
 
@@ -138,7 +139,8 @@ barplot(
 
 Overall total emissions from PM2.5 have decreased in Baltimore City, Maryland from 1999 to 2008.
 
-C:\Users\e.reddy.diwakar\Downloads\plot2.png
+![plot2](https://user-images.githubusercontent.com/120176389/226604377-c380a521-3845-4a7a-9e59-f5690b9b5a35.png)
+
 
 ### Question 3
 
@@ -165,7 +167,8 @@ The `non-road`, `nonpoint`, `on-road` source types have all seen decreased emiss
 
 The `point` source saw a slight increase overall from 1999-2008. Also note that the `point` source saw a significant increase until 2005 at which point it decreases again by 2008 to just above the starting values. 
 
-C:\Users\e.reddy.diwakar\Downloads\plot3.png
+![plot3](https://user-images.githubusercontent.com/120176389/226604450-3d4e59b9-cc50-45ae-8f04-b1ce81c13c88.png)
+
 
 ### Question 4
 
@@ -200,7 +203,8 @@ Emissions from coal combustion related sources have decreased from 6 * 10^6 to b
 
 Eg. Emissions from coal combustion related sources have decreased by about 1/3 from 1999-2008!
 
-C:\Users\e.reddy.diwakar\Downloads\plot4.png
+![plot4](https://user-images.githubusercontent.com/120176389/226604511-e44d546d-7008-42e3-8d77-697f9ea2f9cd.png)
+
 
 ### Question 5
 
@@ -230,7 +234,8 @@ ggp <- ggplot(baltimoreVehiclesNEI,aes(factor(year),Emissions)) +
 
 print(ggp)
 ```
-C:\Users\e.reddy.diwakar\Downloads\plot5.png
+![plot5](https://user-images.githubusercontent.com/120176389/226604561-7e6f2f9e-739e-4b3e-8725-305d7154aa51.png)
+
 
 **How have emissions from motor vehicle sources changed from 1999–2008 in Baltimore City?**
 
@@ -267,5 +272,6 @@ print(ggp)
 
 Los Angeles County has seen the greatest changes over time in motor vehicle emissions.
 
-C:\Users\e.reddy.diwakar\Downloads\plot6.png
+![plot6](https://user-images.githubusercontent.com/120176389/226604633-9da761dc-f37b-4b3b-a021-4973e8457e99.png)
+
 
